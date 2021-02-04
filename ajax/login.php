@@ -4,6 +4,7 @@
   $tel = trim(filter_var($_POST['tel'], FILTER_SANITIZE_STRING));
   $pass = trim(filter_var($_POST['pass'], FILTER_SANITIZE_STRING));
 
+  // Проверяем наличие телефона и пароля
   $error = '';
   if (strlen($tel) <= 10)
     $error = 'Введите телефон';
