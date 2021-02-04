@@ -13,7 +13,7 @@ class Connect
 
   public function __construct()
   {
-
+    // Данные для подключения к БД
     $this->host = "localhost";
     $this->user = "ce57149_insta";
     $this->password = "123456789";
